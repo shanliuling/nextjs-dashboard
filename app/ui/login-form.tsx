@@ -19,7 +19,6 @@ export default function LoginForm() {
     authenticate,
     undefined
   )
-  console.log(errorMessage, isPending)
 
   return (
     <form action={formAction} className="space-y-3">
